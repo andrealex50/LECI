@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexa/disciplinas/isd/resolucoes/contador/simulation/qsim
+vSpecialCount
+Z1 !s110 1672827180
+!i10b 1
+!s100 VfMYKLAljI3M@S[0AKoOC1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[cnBgNQh_e=50=4:V6:Cn1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672827178
+8SpecialCount.vo
+FSpecialCount.vo
+!i122 12
+L0 32 280
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1672827180.000000
+!s107 SpecialCount.vo|
+!s90 -work|work|SpecialCount.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@special@count
+vSpecialCount_vlg_vec_tst
+R1
+!i10b 1
+!s100 9T_Sj8EKHhJMUS9kdVliD0
+R2
+IVjI5chmjSXIo>W;mTJjjA0
+R3
+R0
+w1672827176
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+!i122 13
+L0 30 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R6
+R7
+n@special@count_vlg_vec_tst

@@ -1,0 +1,122 @@
+$comment
+	File created using the following command:
+		vcd file dflip.msim.vcd -direction
+$end
+$date
+	Tue Jan 03 12:56:23 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module dflip_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " D $end
+$var wire 1 # Y $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * Y~output_o $end
+$var wire 1 + CLK~input_o $end
+$var wire 1 , D~input_o $end
+$var wire 1 - inst~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+$end
+#20000
+1!
+1+
+#30000
+1"
+1,
+#40000
+0!
+0+
+#60000
+1!
+1+
+1-
+1*
+1#
+#80000
+0!
+0+
+#90000
+0"
+0,
+#100000
+1!
+1+
+0-
+0*
+0#
+#110000
+1"
+1,
+#120000
+0!
+0+
+#130000
+0"
+0,
+#140000
+1!
+1+
+#150000
+1"
+1,
+#160000
+0!
+0+
+#180000
+1!
+1+
+1-
+1*
+1#
+#190000
+0"
+0,
+#200000
+0!
+0+
+#220000
+1!
+1+
+0-
+0*
+0#
+#240000
+0!
+0+
+#260000
+1!
+1+
+#280000
+0!
+0+
+#1000000

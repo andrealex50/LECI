@@ -1,0 +1,12 @@
+|cloques
+Q[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SI => inst.DATAIN
+
+

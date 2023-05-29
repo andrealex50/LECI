@@ -1,0 +1,25 @@
+|alineab
+Q[0] <= ty:inst.Q0
+Q[1] <= ty:inst.Q1
+Q[2] <= ty:inst.Q2
+Q[3] <= ty:inst.Q3
+CLK => ty:inst.CLK
+
+
+|alineab|ty:inst
+Q0 <= ff3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => ff3.CLK
+CLK => ff2.CLK
+CLK => ff1.CLK
+CLK => ff0.CLK
+LD => inst15.IN0
+D0 => inst6.IN1
+SI => inst5.IN0
+Q1 <= ff2.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst9.IN0
+Q2 <= ff1.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst11.IN0
+Q3 <= ff0.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst12.IN0
+
+

@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/seila/desl.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/seila/Waveform.vwf
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/seila/ty.bdf
+design_name = desl
+instance = comp, \Q[3]~output , Q[3]~output, desl, 1
+instance = comp, \Q[2]~output , Q[2]~output, desl, 1
+instance = comp, \Q[1]~output , Q[1]~output, desl, 1
+instance = comp, \Q[0]~output , Q[0]~output, desl, 1
+instance = comp, \CLK~input , CLK~input, desl, 1
+instance = comp, \inst|ff3~0 , inst|ff3~0, desl, 1
+instance = comp, \inst|ff3 , inst|ff3, desl, 1
+instance = comp, \inst|inst12 , inst|inst12, desl, 1
+instance = comp, \inst|ff0 , inst|ff0, desl, 1

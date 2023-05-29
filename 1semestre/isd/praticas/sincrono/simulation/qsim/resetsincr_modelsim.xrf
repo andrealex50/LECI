@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/sincrono/resetsincr.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/sincrono/db/resetsincr.cbx.xml
+design_name = resetsincr
+instance = comp, \Qout~output , Qout~output, resetsincr, 1
+instance = comp, \CLK~input , CLK~input, resetsincr, 1
+instance = comp, \SOME~input , SOME~input, resetsincr, 1
+instance = comp, \Q~input , Q~input, resetsincr, 1
+instance = comp, \X~input , X~input, resetsincr, 1
+instance = comp, \inst3~0 , inst3~0, resetsincr, 1

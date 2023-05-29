@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexa/disciplinas/isd/praticas/a9a10/simulation/qsim
+vmodulo
+Z1 !s110 1672419149
+!i10b 1
+!s100 I6BC;?WcIba[^OFd6T0NV2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8hWRB^LH>QM[_XeC:<oZ33
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672419147
+8modulo.vo
+Fmodulo.vo
+!i122 6
+L0 32 234
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1672419149.000000
+!s107 modulo.vo|
+!s90 -work|work|modulo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmodulo_vlg_vec_tst
+R1
+!i10b 1
+!s100 9mGDNbj13n3ZbBibBXGWd0
+R2
+IS6^DK>NP;bZIhlDzEnbb63
+R3
+R0
+w1672419146
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 7
+L0 30 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R6
+R7

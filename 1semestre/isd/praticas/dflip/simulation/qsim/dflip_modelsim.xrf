@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/dflip/dflip.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/dflip/db/dflip.cbx.xml
+design_name = dflip
+instance = comp, \Y~output , Y~output, dflip, 1
+instance = comp, \CLK~input , CLK~input, dflip, 1
+instance = comp, \D~input , D~input, dflip, 1

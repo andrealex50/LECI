@@ -1,0 +1,30 @@
+ Longjing, China;  Lome, Togo; 23.75; 87.0
+ Shenzhen, China;  Manila, Philippines; 3.28; 36.0
+ Taipei, Taiwan;  Bogota, Colombia; 28.87; 57.0
+ Durban, South Africa;  Munich, Germany; 11.64; 2.0
+ Stockholm, Sweden;  Bangkok, Thailand; 18.43; 75.0
+ Hamburg, Germany;  Luanda, Angola; 1.16; 54.0
+ Montreal, Canada;  Bucharest, Romania; 24.5; 33.0
+ Jakarta, Indonesia;  Barcelona, Spain; 17.81; 87.0
+ Dar es Salaam, Tanzania;  Athens, Greece; 10.35; 12.0
+ Oslo, Norway;  Istanbul, Turkey; 28.21; 4.0
+ Dublin, Ireland;  Colombo, Sri Lanka; 5.69; 5.0
+ Fukuoka, Japan;  Cairo, Egypt; 3.11; 1.0
+ Amsterdam, Netherlands;  Nairobi, Kenya; 4.39; 42.0
+ Stuttgart, Germany;  Asuncion, Paraguay; 0.12; 48.0
+ Brisbane, Australia;  Santiago, Chile; 13.62; 16.0
+ Tehran, Iran;  Guadalajara, Mexico; 15.08; 78.0
+ Auckland, New Zealand;  Mumbai, India; 7.39; 51.0
+ Edmonton, Canada;  Hanoi, Vietnam; 25.2; 39.0
+ Rome, Italy;  Johannesburg, South Africa; 16.67; 3.0
+ Perth, Australia;  Casablanca, Morocco; 12.03; 84.0
+ Seoul, South Korea;  Kiev, Ukraine; 2.09; 66.0
+ Helsinki, Finland;  Rio de Janeiro, Brazil; 27.17; 81.0
+ Vancouver, Canada;  Dhaka, Bangladesh; 21.72; 14.0
+ Calgary, Canada;  Moscow, Russia; 26.9; 60.0
+ Zurich, Switzerland;  Manila, Philippines; 6.85; 20.0
+ Vienna, Austria;  Lima, Peru; 19.59; 69.0
+ Sydney, Australia;  Belgrade, Serbia; 9.53; 45.0
+ San Francisco, USA;  Osaka, Japan; 22.23; 1.0
+ Madrid, Spain;  Karachi, Pakistan; 14.55; -1.0
+ Seattle, USA;  Ho Chi Minh City, Vietnam; 0.69; -1.0

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alexa/disciplinas/isd/resolucoes/enunciado2/MEF.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/resolucoes/enunciado2/exer1.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/resolucoes/enunciado2/db/exer1.cbx.xml
+design_name = exer1
+instance = comp, \Q[1]~output , Q[1]~output, exer1, 1
+instance = comp, \Q[0]~output , Q[0]~output, exer1, 1
+instance = comp, \CLK~input , CLK~input, exer1, 1
+instance = comp, \RESET_L~input , RESET_L~input, exer1, 1
+instance = comp, \X~input , X~input, exer1, 1
+instance = comp, \inst10~0 , inst10~0, exer1, 1
+instance = comp, \inst18~0 , inst18~0, exer1, 1

@@ -1,0 +1,14 @@
+|MEF
+Y <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+X => inst16.IN0
+X => inst7.IN0
+X => inst6.IN2
+X => inst4.IN1
+X => inst12.IN0
+RESET_H => inst.IN0
+Q[0] <= D0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= D1.DB_MAX_OUTPUT_PORT_TYPE
+CLK => D0.CLK
+CLK => D1.CLK
+
+

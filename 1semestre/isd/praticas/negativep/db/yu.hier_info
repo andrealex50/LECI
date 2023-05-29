@@ -1,0 +1,51 @@
+|yu
+P[0] <= frio:inst.P[0]
+P[1] <= frio:inst.P[1]
+P[2] <= frio:inst.P[2]
+P[3] <= frio:inst.P[3]
+P[4] <= frio:inst.P[4]
+P[5] <= frio:inst.P[5]
+P[6] <= frio:inst.P[6]
+P[7] <= frio:inst.P[7]
+CLK => frio:inst.CLK
+
+
+|yu|frio:inst
+P[0] <= 74138:inst2.Y0N
+P[1] <= 74138:inst2.Y1N
+P[2] <= 74138:inst2.Y2N
+P[3] <= 74138:inst2.Y3N
+P[4] <= 74138:inst2.Y4N
+P[5] <= 74138:inst2.Y5N
+P[6] <= 74138:inst2.Y6N
+P[7] <= 74138:inst2.Y7N
+CLK => Block3:inst.CLK
+CLK => 74138:inst2.G2AN
+
+
+|yu|frio:inst|74138:inst2
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|yu|frio:inst|Block3:inst
+Q[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+
+

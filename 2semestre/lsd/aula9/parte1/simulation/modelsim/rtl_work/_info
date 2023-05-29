@@ -1,0 +1,94 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexa/lsd/aula9/simulation/modelsim
+Eseqdetfsm
+Z1 w1684762168
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/alexa/lsd/aula9/SeqDetFSM.vhd
+Z5 FC:/Users/alexa/lsd/aula9/SeqDetFSM.vhd
+l0
+L4 1
+VQ=nkDm8h8>g49zCd:GIm21
+!s100 f2=[h49[D6MST40egObEc2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1684764138
+!i10b 1
+Z8 !s108 1684764138.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/alexa/lsd/aula9/SeqDetFSM.vhd|
+Z10 !s107 C:/Users/alexa/lsd/aula9/SeqDetFSM.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+Z13 DEx4 work 9 seqdetfsm 0 22 Q=nkDm8h8>g49zCd:GIm21
+!i122 0
+l14
+L11 42
+VdnfUMXBzOknWF`d1F@U<60
+!s100 ?JF<?hA7h3E:ANL^Kj6G51
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseqdetfsm_tb
+Z14 w1684763920
+R2
+R3
+!i122 1
+R0
+Z15 8C:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd
+Z16 FC:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd
+l0
+L5 1
+VgVejbiDfY`0XO:d8dm:Gi0
+!s100 4^dZ5Ih28OXY0L]=nSLLg2
+R6
+32
+Z17 !s110 1684764177
+!i10b 1
+Z18 !s108 1684764177.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd|
+!s107 C:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd|
+!i113 1
+Z20 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 12 seqdetfsm_tb 0 22 gVejbiDfY`0XO:d8dm:Gi0
+!i122 1
+l13
+L8 41
+VLdgQPOBBZek5665m0ig=b1
+!s100 9ZNMW`Xo67@2Ko6>gFf0E0
+R6
+32
+R17
+!i10b 1
+R18
+R19
+Z21 !s107 C:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd|
+!i113 1
+R20
+R12

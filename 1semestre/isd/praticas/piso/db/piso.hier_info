@@ -1,0 +1,19 @@
+|piso
+Q[0] <= inst2[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst2[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst2[2].DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst2[2].CLK
+CLK => inst2[1].CLK
+CLK => inst2[0].CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SHIFT => inst12.IN0
+SHIFT => inst3.IN0
+SHIFT => inst6.IN1
+SHIFT => inst9.IN1
+C => inst10.IN1
+B => inst7.IN1
+A => inst4.IN1
+SIN => inst3.IN1
+
+

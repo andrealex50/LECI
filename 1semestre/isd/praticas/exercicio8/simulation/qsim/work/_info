@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexa/disciplinas/isd/praticas/seila/simulation/qsim
+valineab
+!s110 1672682976
+!i10b 1
+!s100 4H?XG^R3M`T`be0=X@mNK0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^Y_O@HDH6aQVY72@=76;j3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/alexa/disciplinas/isd/praticas/exercicio8/simulation/qsim
+w1672682973
+Z4 8alineab.vo
+Z5 Falineab.vo
+!i122 16
+L0 32 234
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1672682976.000000
+Z8 !s107 alineab.vo|
+Z9 !s90 -work|work|alineab.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+valineab_vlg_vec_tst
+!s110 1672682977
+!i10b 1
+!s100 ]LU7kme5d3_dnYeikFd470
+R1
+I[N1dDbabDSgQEJ6cS]?M>1
+R2
+R3
+w1672682971
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 17
+Z12 L0 30 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+vdesl
+Z13 !s110 1672426829
+!i10b 1
+!s100 HMCXM^im@E72NjX;_V9ln3
+R1
+I_Pki8ma29L0k[m]8adY?N1
+R2
+R0
+w1672426827
+8desl.vo
+Fdesl.vo
+!i122 2
+L0 32 162
+R6
+r1
+!s85 0
+31
+Z14 !s108 1672426829.000000
+!s107 desl.vo|
+!s90 -work|work|desl.vo|
+!i113 1
+R10
+R11
+vdesl_vlg_vec_tst
+R13
+!i10b 1
+!s100 E<W7^=afS2UOGfL@OE?5R1
+R1
+IBZMd97[Kb62cY8ZC`88i?1
+R2
+R0
+w1672426825
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 3
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vty
+Z15 !s110 1672668781
+!i10b 1
+!s100 4^TPf^U7K0n<aFHcWHiWS1
+R1
+Il^Ck`9WmHk_R0K[cI1W3^1
+R2
+Z16 dC:/Users/manuelv/Downloads/exercicio8/simulation/qsim
+w1672668779
+R4
+R5
+!i122 10
+L0 32 312
+R6
+r1
+!s85 0
+31
+Z17 !s108 1672668781.000000
+R8
+R9
+!i113 1
+R10
+R11
+vty_vlg_vec_tst
+R15
+!i10b 1
+!s100 VBJeTd?KGG:ZGQ8:4Bl093
+R1
+I<]aLkdg6^R9Qf@:XRAgkc1
+R2
+R16
+w1672668777
+8ty.vwf.vt
+Fty.vwf.vt
+!i122 11
+L0 30 109
+R6
+r1
+!s85 0
+31
+R17
+!s107 ty.vwf.vt|
+!s90 -work|work|ty.vwf.vt|
+!i113 1
+R10
+R11

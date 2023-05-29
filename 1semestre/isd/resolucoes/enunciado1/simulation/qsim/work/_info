@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alexa/disciplinas/isd/resoluçoes/enunciado1/simulation/qsim
+vexer1
+Z0 !s110 1672925483
+!i10b 1
+!s100 ]Uzj:O[ThSf7lI6P4_KeV2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[2RmlPjhkP<alVS]=icV73
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/alexa/disciplinas/isd/resolucoes/enunciado1/simulation/qsim
+w1672925482
+8exer1.vo
+Fexer1.vo
+!i122 20
+L0 32 229
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1672925483.000000
+!s107 exer1.vo|
+!s90 -work|work|exer1.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vexer1_vlg_vec_tst
+R0
+!i10b 1
+!s100 zo^1Q5[Z9=ETGjV<_XOm33
+R1
+IGbzfjVGiTg=8:U>`;c>Qj0
+R2
+R3
+w1672925480
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 21
+L0 30 44
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>História dos carros</title>
+  <!-- Bootstrap minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- LeaftLet CSS e JavaScript -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <!-- Personal Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- HighCharts javascript-->
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <nav class="navbar-navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="font-size: 20px; color:#87CEEB">História dos carros</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="item"><a href="index.html"> Geral </a></li>
+        <li class="dropdown">
+          <a href="#primeiroprototipo" class="dropdown-toggle" data-toggle="dropdown">
+            Primeiros protótipos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="osprimeiros.html" target="_self"> <b>O pioneiro</b></a></li>
+            <li class="divider"></li>
+            <li><a href="osprimeiros.html" target="_self"> <b>O triciclo de Benz</b></a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="erasdainvencao.html" target="_self"> Eras da Invenção </a></li>
+        <li class="item"><a href="propulsores.html" target="_self">Propulsores da evolução</a></li>
+        <li class="item"><a href="industria.html" target="_self">A Indústria</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">
+            O futuro<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="futuro.html" target="_self"> <b>A Mudança</b></a></li>
+            <li class="divider"></li>
+            <li><a href="futuro.html" target="_self"> <b>Inovação do automóvel</b></a></li>
+            <li class="divider"></li>
+            <li><a href="futuro.html" target="_self"> <b>O lado negro da evolução</b></a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="vertente.html" target="_self"> Vertente não urbana</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="about.html" style="font-size: 16px; color:#87CEEB" target="_blank">
+            <span class="glyphicon glyphicon-user"></span> Acerca</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+
+<body class="style_about">
+  <h2 style="text-align:center">Projeto desenvolvido por:</h2>
+  <div class="container">
+    <div class="element">
+      <!-- Add content for the first element here -->
+      <img src="images/andre.png" alt="André" style="width:50%">
+      <div class="card">
+        <h3>André Alexandre</h3>
+        <p><a href="mailto:alexandreandre@ua.pt">alexandreandre@ua.pt</a></p>
+        <button class = "collapse-button" data-toggle="collapse" data-target="#contribuicao-andre">Contribuições</button>        
+        <div id="contribuicao-andre" class="collapse">
+          <p> fiz isto </p>
+          <p> e isto ...</p>
+        </div>
+      </div>  
+    </div>
+    <div class="element">
+      <!-- Add content for the second element here -->
+      <img src="images/branco.png" alt="Tiago" style="width:50%">
+      <div class="card">
+        <h3>Tiago Melo</h3>
+        <p><a href="mailto:anamota@ua.pt">anamota@ua.pt</a></p>
+        <button class = "collapse-button" data-toggle="collapse" data-target="#contribuicao-tiago">Contribuições</button>      
+        <div id="contribuicao-tiago" class="collapse">
+          <p> fiz isto </p>
+          <p> e isto ... </p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <br>
+  <h3>Projeto realizado de 10/01/2023 a 20/01/2023 no âmbito da unidade curricular de:</h3>
+  <h3><b>Introdução à Engenharia Informática</b></h3>
+  <h3>Do curso:</h3>
+  <h3><b>Licenciatura em Engenharia de Computadores e Informática</b></h3>
+  <h3> Da Universidade de Aveiro </h3>
+  <br>
+  <div style="display: flex; align-items: center; justify-content: center;">
+   <div id="myMap" style="width: 550px; height: 450px"></div>
+  </div>
+  <!-- JavaScript for map design and other functionalities -->
+  <script src="js/map.js"></script>
+  <h3 style="color:black; text-align:center">Repositório: <a href="github.com/detiuaveiro/infor2022-ap-g-infor2022-ap-g30">github.com/detiuaveiro/infor2022-ap-g-infor2022-ap-g30</a></h3>
+  <br><br>
+  <input type="button" class="btn btn-success" value="Close" onclick="self.close()">
+</body>
+
+</html>

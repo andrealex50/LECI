@@ -1,0 +1,260 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+
+// DATE "01/05/2023 13:31:22"
+
+// 
+// Device: Altera EP4CE6E22C6 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module exer1 (
+	Y,
+	Q,
+	CLK,
+	RESET_H);
+output 	Y;
+output 	[2:0] Q;
+input 	CLK;
+input 	RESET_H;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Y~output_o ;
+wire \Q[2]~output_o ;
+wire \Q[1]~output_o ;
+wire \Q[0]~output_o ;
+wire \CLK~input_o ;
+wire \RESET_H~input_o ;
+wire \inst~combout ;
+wire \Q0~q ;
+wire \inst5~0_combout ;
+wire \Q1~q ;
+wire \inst17~0_combout ;
+wire \Q2~q ;
+wire \inst43~0_combout ;
+
+
+cycloneive_io_obuf \Y~output (
+	.i(\inst43~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Y~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Y~output .bus_hold = "false";
+defparam \Y~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \Q[2]~output (
+	.i(\Q2~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q[2]~output .bus_hold = "false";
+defparam \Q[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \Q[1]~output (
+	.i(\Q1~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q[1]~output .bus_hold = "false";
+defparam \Q[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \Q[0]~output (
+	.i(\Q0~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q[0]~output .bus_hold = "false";
+defparam \Q[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \RESET_H~input (
+	.i(RESET_H),
+	.ibar(gnd),
+	.o(\RESET_H~input_o ));
+// synopsys translate_off
+defparam \RESET_H~input .bus_hold = "false";
+defparam \RESET_H~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb inst(
+// Equation(s):
+// \inst~combout  = (!\Q2~q  & (!\Q0~q  & !\RESET_H~input_o ))
+
+	.dataa(gnd),
+	.datab(\Q2~q ),
+	.datac(\Q0~q ),
+	.datad(\RESET_H~input_o ),
+	.cin(gnd),
+	.combout(\inst~combout ),
+	.cout());
+// synopsys translate_off
+defparam inst.lut_mask = 16'h0003;
+defparam inst.sum_lutc_input = "datac";
+// synopsys translate_on
+
+dffeas Q0(
+	.clk(\CLK~input_o ),
+	.d(\inst~combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\Q0~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam Q0.is_wysiwyg = "true";
+defparam Q0.power_up = "low";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst5~0 (
+// Equation(s):
+// \inst5~0_combout  = (!\Q2~q  & (!\RESET_H~input_o  & (\Q0~q  $ (\Q1~q ))))
+
+	.dataa(\Q0~q ),
+	.datab(\Q1~q ),
+	.datac(\Q2~q ),
+	.datad(\RESET_H~input_o ),
+	.cin(gnd),
+	.combout(\inst5~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst5~0 .lut_mask = 16'h0006;
+defparam \inst5~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+dffeas Q1(
+	.clk(\CLK~input_o ),
+	.d(\inst5~0_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\Q1~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam Q1.is_wysiwyg = "true";
+defparam Q1.power_up = "low";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst17~0 (
+// Equation(s):
+// \inst17~0_combout  = (\Q0~q  & (\Q1~q  & (!\Q2~q  & !\RESET_H~input_o )))
+
+	.dataa(\Q0~q ),
+	.datab(\Q1~q ),
+	.datac(\Q2~q ),
+	.datad(\RESET_H~input_o ),
+	.cin(gnd),
+	.combout(\inst17~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst17~0 .lut_mask = 16'h0008;
+defparam \inst17~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+dffeas Q2(
+	.clk(\CLK~input_o ),
+	.d(\inst17~0_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\Q2~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam Q2.is_wysiwyg = "true";
+defparam Q2.power_up = "low";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst43~0 (
+// Equation(s):
+// \inst43~0_combout  = (!\RESET_H~input_o  & (!\Q1~q  & ((!\Q0~q ) # (!\Q2~q ))))
+
+	.dataa(\Q2~q ),
+	.datab(\Q0~q ),
+	.datac(\RESET_H~input_o ),
+	.datad(\Q1~q ),
+	.cin(gnd),
+	.combout(\inst43~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst43~0 .lut_mask = 16'h0007;
+defparam \inst43~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign Y = \Y~output_o ;
+
+assign Q[2] = \Q[2]~output_o ;
+
+assign Q[1] = \Q[1]~output_o ;
+
+assign Q[0] = \Q[0]~output_o ;
+
+endmodule

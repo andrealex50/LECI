@@ -1,0 +1,239 @@
+$comment
+	File created using the following command:
+		vcd file LogicUnit.msim.vcd -direction
+$end
+$date
+	Mon Feb 20 16:25:25 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module logicunit_vhd_vec_tst $end
+$var wire 1 ! andOut $end
+$var wire 1 " input0 $end
+$var wire 1 # input1 $end
+$var wire 1 $ invOut $end
+$var wire 1 % nandOut $end
+$var wire 1 & norOut $end
+$var wire 1 ' orOut $end
+$var wire 1 ( xorOut $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var wire 1 , devoe $end
+$var wire 1 - devclrn $end
+$var wire 1 . devpor $end
+$var wire 1 / ww_devoe $end
+$var wire 1 0 ww_devclrn $end
+$var wire 1 1 ww_devpor $end
+$var wire 1 2 ww_input0 $end
+$var wire 1 3 ww_input1 $end
+$var wire 1 4 ww_invOut $end
+$var wire 1 5 ww_andOut $end
+$var wire 1 6 ww_orOut $end
+$var wire 1 7 ww_xorOut $end
+$var wire 1 8 ww_nandOut $end
+$var wire 1 9 ww_norOut $end
+$var wire 1 : \invOut~output_o\ $end
+$var wire 1 ; \andOut~output_o\ $end
+$var wire 1 < \orOut~output_o\ $end
+$var wire 1 = \xorOut~output_o\ $end
+$var wire 1 > \nandOut~output_o\ $end
+$var wire 1 ? \norOut~output_o\ $end
+$var wire 1 @ \input0~input_o\ $end
+$var wire 1 A \input1~input_o\ $end
+$var wire 1 B \andOut~0_combout\ $end
+$var wire 1 C \orOut~0_combout\ $end
+$var wire 1 D \xorOut~0_combout\ $end
+$var wire 1 E \ALT_INV_input0~input_o\ $end
+$var wire 1 F \ALT_INV_andOut~0_combout\ $end
+$var wire 1 G \ALT_INV_orOut~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+1%
+0&
+1'
+1(
+0)
+1*
+x+
+1,
+1-
+1.
+1/
+10
+11
+12
+03
+04
+05
+16
+17
+18
+09
+0:
+0;
+1<
+1=
+1>
+0?
+1@
+0A
+0B
+1C
+1D
+0E
+1F
+0G
+$end
+#100000
+1#
+13
+1A
+1B
+0D
+0F
+0=
+1;
+0>
+07
+15
+08
+0(
+1!
+0%
+#300000
+0#
+0"
+03
+02
+0@
+0A
+1E
+0B
+0C
+1G
+1F
+1:
+0<
+0;
+14
+1>
+1?
+06
+05
+1$
+18
+19
+0'
+0!
+1%
+1&
+#400000
+1#
+1"
+13
+12
+1@
+1A
+0E
+1B
+1C
+0G
+0F
+0:
+1<
+1;
+04
+0>
+0?
+16
+15
+0$
+08
+09
+1'
+1!
+0%
+0&
+#500000
+0"
+02
+0@
+1E
+0B
+1D
+1F
+1:
+1=
+0;
+14
+1>
+17
+05
+1$
+18
+1(
+0!
+1%
+#600000
+1"
+0#
+12
+03
+0A
+1@
+0E
+0:
+04
+0$
+#800000
+1#
+13
+1A
+1B
+0D
+0F
+0=
+1;
+0>
+07
+15
+08
+0(
+1!
+0%
+#900000
+0"
+02
+0@
+1E
+0B
+1D
+1F
+1:
+1=
+0;
+14
+1>
+17
+05
+1$
+18
+1(
+0!
+1%
+#1000000

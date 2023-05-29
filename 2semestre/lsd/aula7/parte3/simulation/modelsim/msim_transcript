@@ -1,0 +1,221 @@
+# Reading pref.tcl
+# do ALU16_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {ALU16_7_1200mv_85c_slow.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:05:41 on May 08,2023
+# vcom -reportprogress 300 -93 -work work ALU16_7_1200mv_85c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ALU16
+# -- Compiling architecture structure of ALU16
+# End time: 16:05:42 on May 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/alexa/lsd/aula7/parte3/ALU16_Tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:05:42 on May 08,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/alexa/lsd/aula7/parte3/ALU16_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU16_Tb
+# -- Compiling architecture Stimulus of ALU16_Tb
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ALU16
+# End time: 16:05:42 on May 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /uut=ALU16_7_1200mv_85c_vhd_slow.sdo -L altera -L cycloneive -L gate_work -L work -voptargs="+acc"  ALU16_Tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -sdftyp "/uut=ALU16_7_1200mv_85c_vhd_slow.sdo" -L altera -L cycloneive -L gate_work -L work -voptargs=""+acc"" ALU16_Tb 
+# Start time: 16:05:42 on May 08,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.alu16_tb(stimulus)
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading work.alu16(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_unsigned(body)
+# Loading cycloneive.cycloneive_mac_mult(vital_cycloneive_mac_mult)
+# Loading cycloneive.cycloneive_mac_data_reg(vital_cycloneive_mac_data_reg)
+# Loading cycloneive.cycloneive_mac_sign_reg(cycloneive_mac_sign_reg)
+# Loading cycloneive.cycloneive_mac_mult_internal(vital_cycloneive_mac_mult_internal)
+# Loading cycloneive.cycloneive_mac_out(vital_cycloneive_mac_out)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading instances from ALU16_7_1200mv_85c_vhd_slow.sdo
+# Loading timing data from ALU16_7_1200mv_85c_vhd_slow.sdo
+# ** Warning: Design size of 79697 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /alu16_tb File: C:/Users/alexa/lsd/aula7/parte3/ALU16_Tb.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3770 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3770 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3932 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3932 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3984 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3984 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4029 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4029 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4072 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4072 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4109 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4109 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4243 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4243 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4248 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4248 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4263 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4263 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4270 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4270 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4306 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4306 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4374 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4374 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4512 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4512 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4566 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4566 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4575 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4575 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4576 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4576 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4617 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4617 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4635 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4635 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4695 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4695 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4714 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4714 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4855 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4855 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4866 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4866 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4973 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4973 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4987 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4987 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5036 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5036 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5179 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5179 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5301 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5301 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5338 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5338 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5431 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5431 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5588 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5913 ps  Iteration: 0  Instance: /alu16_tb/uut/\Mult0|auto_generated|mac_mult1\/mac_multiply
+# End time: 16:08:43 on May 08,2023, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 67

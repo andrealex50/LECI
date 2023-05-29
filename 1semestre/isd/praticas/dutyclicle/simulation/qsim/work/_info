@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexa/disciplinas/isd/praticas/dutyclicle/simulation/qsim
+vdutymetade
+Z1 !s110 1672831259
+!i10b 1
+!s100 HW_99^=[8fzkjk6nCjDhc3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3kKaYUhh1iNNCY<?P@6Ya0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672831256
+8dutymetade.vo
+Fdutymetade.vo
+!i122 0
+L0 32 81
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1672831258.000000
+!s107 dutymetade.vo|
+!s90 -work|work|dutymetade.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdutymetade_vlg_vec_tst
+R1
+!i10b 1
+!s100 ADYh[L`8_4=z:F<;lToEf2
+R2
+I[81Y_Y3UIS3jWa]KjBD?;2
+R3
+R0
+w1672831254
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 31
+R4
+r1
+!s85 0
+31
+!s108 1672831259.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

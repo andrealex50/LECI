@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexa/disciplinas/isd/praticas/dflip/simulation/qsim
+vdflip
+!s110 1672750581
+!i10b 1
+!s100 9^1kHe`08K@WLzm;5PlVk2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4gXBl=VV7HzmZ5^E>6>kQ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672750578
+8dflip.vo
+Fdflip.vo
+!i122 0
+L0 32 76
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1672750581.000000
+!s107 dflip.vo|
+!s90 -work|work|dflip.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdflip_vlg_vec_tst
+!s110 1672750582
+!i10b 1
+!s100 G3>0dMHCkcPBcdChVzEB01
+R1
+Id2f:9_5J^afXBzzf@N?l33
+R2
+R0
+w1672750576
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 52
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

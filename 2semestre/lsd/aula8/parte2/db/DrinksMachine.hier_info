@@ -1,0 +1,26 @@
+|Drinks
+SW => drinksfsm:Drinks.inData
+KEY[0] => drinksfsm:Drinks.reset
+CLOCK_50 => drinksfsm:Drinks.clk
+LEDG[0] << drinksfsm:Drinks.parityOut
+
+
+|Drinks|DrinksFSM:Drinks
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+clk => pState~1.DATAIN
+inData => Selector0.IN4
+inData => Selector1.IN3
+inData => Selector2.IN3
+inData => Selector3.IN4
+inData => nState.E1.DATAB
+inData => Selector1.IN1
+inData => nState.E3.DATAB
+inData => Selector2.IN1
+parityOut <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

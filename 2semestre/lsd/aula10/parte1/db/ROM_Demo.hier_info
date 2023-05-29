@@ -1,0 +1,89 @@
+|ROM_Demo
+LEDR[0] <= ROM_16_8:inst2.dataOut[0]
+LEDR[1] <= ROM_16_8:inst2.dataOut[1]
+LEDR[2] <= ROM_16_8:inst2.dataOut[2]
+LEDR[3] <= ROM_16_8:inst2.dataOut[3]
+LEDR[4] <= ROM_16_8:inst2.dataOut[4]
+LEDR[5] <= ROM_16_8:inst2.dataOut[5]
+LEDR[6] <= ROM_16_8:inst2.dataOut[6]
+LEDR[7] <= ROM_16_8:inst2.dataOut[7]
+KEY[0] => inst44.IN0
+CLOCK_50 => FreqDivider:inst3.clkIn
+SW[0] => CounterUp:inst.enable
+
+
+|ROM_Demo|ROM_16_8:inst2
+address[0] => dataOut[0].DATAIN
+address[0] => dataOut[4].DATAIN
+address[1] => dataOut[1].DATAIN
+address[1] => dataOut[5].DATAIN
+address[2] => dataOut[2].DATAIN
+address[2] => dataOut[6].DATAIN
+address[3] => dataOut[3].DATAIN
+address[3] => dataOut[7].DATAIN
+dataOut[0] <= address[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= address[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= address[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= address[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= address[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= address[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= address[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= address[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ROM_Demo|CounterUp:inst
+clk => s_cntVal[0].CLK
+clk => s_cntVal[1].CLK
+clk => s_cntVal[2].CLK
+clk => s_cntVal[3].CLK
+reset => s_cntVal.OUTPUTSELECT
+reset => s_cntVal.OUTPUTSELECT
+reset => s_cntVal.OUTPUTSELECT
+reset => s_cntVal.OUTPUTSELECT
+enable => s_cntVal.OUTPUTSELECT
+enable => s_cntVal.OUTPUTSELECT
+enable => s_cntVal.OUTPUTSELECT
+enable => s_cntVal.OUTPUTSELECT
+cntVal[0] <= s_cntVal[0].DB_MAX_OUTPUT_PORT_TYPE
+cntVal[1] <= s_cntVal[1].DB_MAX_OUTPUT_PORT_TYPE
+cntVal[2] <= s_cntVal[2].DB_MAX_OUTPUT_PORT_TYPE
+cntVal[3] <= s_cntVal[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ROM_Demo|FreqDivider:inst3
+reset => process_0.IN1
+clkIn => s_counter[0].CLK
+clkIn => s_counter[1].CLK
+clkIn => s_counter[2].CLK
+clkIn => s_counter[3].CLK
+clkIn => s_counter[4].CLK
+clkIn => s_counter[5].CLK
+clkIn => s_counter[6].CLK
+clkIn => s_counter[7].CLK
+clkIn => s_counter[8].CLK
+clkIn => s_counter[9].CLK
+clkIn => s_counter[10].CLK
+clkIn => s_counter[11].CLK
+clkIn => s_counter[12].CLK
+clkIn => s_counter[13].CLK
+clkIn => s_counter[14].CLK
+clkIn => s_counter[15].CLK
+clkIn => s_counter[16].CLK
+clkIn => s_counter[17].CLK
+clkIn => s_counter[18].CLK
+clkIn => s_counter[19].CLK
+clkIn => s_counter[20].CLK
+clkIn => s_counter[21].CLK
+clkIn => s_counter[22].CLK
+clkIn => s_counter[23].CLK
+clkIn => s_counter[24].CLK
+clkIn => s_counter[25].CLK
+clkIn => s_counter[26].CLK
+clkIn => s_counter[27].CLK
+clkIn => s_counter[28].CLK
+clkIn => s_counter[29].CLK
+clkIn => s_counter[30].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

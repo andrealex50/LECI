@@ -1,0 +1,54 @@
+# Reading pref.tcl
+# do SeqDetector_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/alexa/lsd/aula9/SeqDetFSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:18 on May 22,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/alexa/lsd/aula9/SeqDetFSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SeqDetFSM
+# -- Compiling architecture Behav of SeqDetFSM
+# End time: 15:02:18 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:57 on May 22,2023
+# vcom -reportprogress 300 -work work C:/Users/alexa/lsd/aula9/SeqDetFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SeqDetFSM_Tb
+# -- Compiling architecture Stimulus of SeqDetFSM_Tb
+# -- Loading entity SeqDetFSM
+# End time: 15:02:57 on May 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.seqdetfsm_tb
+# vsim work.seqdetfsm_tb 
+# Start time: 15:03:03 on May 22,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.seqdetfsm_tb(stimulus)
+# Loading work.seqdetfsm(behav)
+add wave -position end  sim:/seqdetfsm_tb/s_clk
+add wave -position end  sim:/seqdetfsm_tb/s_reset
+add wave -position end  sim:/seqdetfsm_tb/s_xIn
+add wave -position end  sim:/seqdetfsm_tb/s_yOut
+run
+add wave -position end  sim:/seqdetfsm_tb/uut/PS
+restart
+run
+# End time: 15:05:00 on May 22,2023, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0

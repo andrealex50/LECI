@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alexa/disciplinas/isd/resolucoes/enunciado5/DetSeq.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/resolucoes/enunciado5/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74194.bdf
+design_name = DetSeq
+instance = comp, \Y~output , Y~output, DetSeq, 1
+instance = comp, \CLK~input , CLK~input, DetSeq, 1
+instance = comp, \X~input , X~input, DetSeq, 1
+instance = comp, \inst|38 , inst|38, DetSeq, 1
+instance = comp, \inst|39 , inst|39, DetSeq, 1
+instance = comp, \inst|40 , inst|40, DetSeq, 1
+instance = comp, \inst|41 , inst|41, DetSeq, 1
+instance = comp, \inst43~0 , inst43~0, DetSeq, 1

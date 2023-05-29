@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/dutyclicle/dutymetade.bdf
+source_file = 1, C:/Users/alexa/disciplinas/isd/praticas/dutyclicle/db/dutymetade.cbx.xml
+design_name = dutymetade
+instance = comp, \Q~output , Q~output, dutymetade, 1
+instance = comp, \CLK~input , CLK~input, dutymetade, 1
+instance = comp, \inst~0 , inst~0, dutymetade, 1
